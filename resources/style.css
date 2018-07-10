@@ -50,8 +50,22 @@ nav li {
 
 /*Leading article*/
 
+.content {
+  display: flex;
+  margin: 0 auto 76px auto;
+  width: 1232px;
+}
+
 .column_large {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+
+}
+
+.column_large {
+  margin-right: 30px;
 }
 
 .column_large .lead_story {
@@ -76,4 +90,22 @@ nav li {
 
 .text_content h2 {
   border: 1px solid black;
+}
+
+.Medium_column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 300px;
+}
+
+.content {
+  display: flex;
+}
+
+.column_small {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 240px;
 }
